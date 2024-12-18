@@ -3,7 +3,13 @@
   <groupId>upes.devops</groupId>
   <artifactId>devops.b2.lab1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+  <dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>4.0.1</version>
+    <scope>provided</scope>
+</dependency>
+
     <properties>
      <maven.compiler.source>1.8</maven.compiler.source>
      <maven.compiler.target>1.8</maven.compiler.target>
